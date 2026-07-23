@@ -115,3 +115,55 @@ th{font-family:'Barlow Condensed',sans-serif;color:var(--gold);text-transform:up
   .hero .logo{height:80px;}
   .hero h1{font-size:clamp(2.4rem,14vw,4.2rem);}
 }
+
+/* ---- MOBILE NAV ---- */
+.nav-toggle{
+  display:none;
+  margin-left:auto;
+  background:none;border:1px solid var(--gold-deep);color:var(--gold);
+  font-size:1.3rem;line-height:1;padding:.3rem .7rem;cursor:pointer;
+}
+
+@media (max-width:860px){
+  .nav{flex-wrap:nowrap;padding:.6rem 1rem;}
+  .nav .brand{font-size:1rem;margin-right:.4rem;}
+  .nav .brand img{height:26px;width:26px;}
+  .nav-toggle{display:block;}
+  .nav > ul{
+    display:none;
+    flex-direction:column;
+    width:100%;
+    position:absolute;
+    top:100%;left:0;right:0;
+    background:var(--bg-panel);
+    border-bottom:2px solid var(--gold);
+    padding:.4rem 0;
+    max-height:80vh;
+    overflow-y:auto;
+  }
+  .nav > ul.open{display:flex;}
+  .nav li{width:100%;}
+  .nav > ul > li > a, .nav > ul > li > span{
+    padding:.75rem 1.1rem;border-bottom:1px solid var(--line);
+  }
+  .dropdown{
+    display:none;position:static;min-width:0;border:none;
+    background:var(--bg-panel-2);box-shadow:none;
+  }
+  .nav li.open-sub .dropdown{display:block;}
+  .nav li:hover .dropdown{display:none;}
+  .nav li.open-sub .dropdown{display:block;}
+}
+
+/* ---- MOBILE CONTENT ---- */
+@media (max-width:640px){
+  body{font-size:16px;}
+  .wrap{padding:2.2rem 1.1rem;}
+  .hero{padding:3rem 1.1rem;}
+  .embed-frame{height:55vh;}
+  .doc-link{flex-wrap:wrap;padding:.9rem 1rem;}
+  table{display:block;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;}
+  .grid{grid-template-columns:1fr;}
+  .gallery{grid-template-columns:repeat(auto-fit,minmax(160px,1fr));}
+  .banner{max-height:220px;}
+}

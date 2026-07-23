@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <img src="assets/img/Logo_212th.png" alt="Logo 212th">
     212TH BATAILLON
   </div>
+  <button class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
   <ul>
     <li><a href="index.html">🏠 Accueil</a></li>
     <li><a href="effectif.html">👥 Effectif</a></li>
@@ -45,4 +46,23 @@ document.addEventListener("DOMContentLoaded", function () {
   if (navSlot) { navSlot.innerHTML = navHTML; navSlot.classList.add("nav"); }
   var footSlot = document.getElementById("site-footer");
   if (footSlot) { footSlot.innerHTML = footerHTML; footSlot.classList.add("footer"); }
+
+  // --- Menu mobile ---
+  var toggle = document.querySelector(".nav-toggle");
+  var list = document.querySelector(".nav > ul");
+  if (toggle && list) {
+    toggle.addEventListener("click", function () {
+      list.classList.toggle("open");
+    });
+  }
+
+  // --- Sous-menus au clic sur mobile (au lieu du survol) ---
+  document.querySelectorAll(".nav li > span").forEach(function (span) {
+    span.addEventListener("click", function (e) {
+      if (window.innerWidth <= 860) {
+        var li = span.parentElement;
+        li.classList.toggle("open-sub");
+      }
+    });
+  });
 });

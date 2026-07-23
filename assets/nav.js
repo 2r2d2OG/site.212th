@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href="commandement-212th.html">Commandement 212th</a>
         <a href="operateur-radio.html">Opérateur Radio</a>
         <a href="personnages-rp.html">Personnages RP</a>
+        <a href="licence-pilote-flotte.html">Licence Pilote de la Flotte</a>
       </div>
     </li>
     <li><span>🗂️ Documents Spécialisations ⌄</span>

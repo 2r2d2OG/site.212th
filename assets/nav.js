@@ -14,10 +14,16 @@ document.addEventListener("DOMContentLoaded", function () {
     <li><span>👨‍🏫 Formation initiale ⌄</span>
       <div class="dropdown">
         <a href="recrutement-ct-asp.html">Recrutement CT ASP</a>
-        <a href="formation-au-pilotage.html">Formation au pilotage</a>
         <a href="manuel-de-linstructeur.html">Manuel de l'instructeur</a>
         <a href="manuel-du-ct.html">Manuel du CT</a>
         <a href="formation-parachutage.html">Formation Parachutage</a>
+      </div>
+    </li>
+    <li><span>✈️ Pilotage 212th ⌄</span>
+      <div class="dropdown">
+        <a href="formation-au-pilotage.html">Inventaire de l'infanterie</a>
+        <a href="site-formation-pilotage.html">Site Formation aérienne</a>
+        <a href="licence-pilote-flotte.html">Licence Pilote de la Flotte</a>
       </div>
     </li>
     <li><span>🗂️ Informations complémentaires ⌄</span>
@@ -26,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href="commandement-212th.html">Commandement 212th</a>
         <a href="operateur-radio.html">Opérateur Radio</a>
         <a href="personnages-rp.html">Personnages RP</a>
-        <a href="licence-pilote-flotte.html">Licence Pilote de la Flotte</a>
       </div>
     </li>
     <li><span>🗂️ Documents Spécialisations ⌄</span>
@@ -39,7 +44,6 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href="jedi.html">Jedi</a>
       </div>
     </li>
-    <li><a href="site-formation-pilotage.html">✈️ Site formation pilotage</a></li>
   </ul>`;
   var footerHTML = "212TH BATAILLON D'ATTAQUE — USAGE INTERNE UNIQUEMENT";
 

@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // --- Favicon ---
+  var favicon = document.createElement("link");
+  favicon.rel = "icon";
+  favicon.type = "image/png";
+  favicon.href = "assets/img/Logo_212th.png";
+  document.head.appendChild(favicon);
   var navHTML = `
   <div class="brand">
     <img src="assets/img/Logo_212th.png" alt="Logo 212th">

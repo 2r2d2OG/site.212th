@@ -1,10 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // --- Favicon ---
-  var favicon = document.createElement("link");
-  favicon.rel = "icon";
-  favicon.type = "image/png";
-  favicon.href = "assets/img/Logo_212th.png";
-  document.head.appendChild(favicon);
   var navHTML = `
   <div class="brand">
     <img src="assets/img/Logo_212th.png" alt="Logo 212th">
@@ -22,7 +16,12 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href="recrutement-ct-asp.html">Recrutement CT ASP</a>
         <a href="manuel-de-linstructeur.html">Manuel de l'instructeur</a>
         <a href="manuel-du-ct.html">Manuel du CT</a>
+      </div>
+    </li>
+    <li><span>🎓 Formation régimentaire ⌄</span>
+      <div class="dropdown">
         <a href="formation-parachutage.html">Formation Parachutage</a>
+        <a href="formation-membre-equipage.html">Formation membre équipage</a>
       </div>
     </li>
     <li><span>✈️ Pilotage 212th ⌄</span>
@@ -57,6 +56,13 @@ document.addEventListener("DOMContentLoaded", function () {
   if (navSlot) { navSlot.innerHTML = navHTML; navSlot.classList.add("nav"); }
   var footSlot = document.getElementById("site-footer");
   if (footSlot) { footSlot.innerHTML = footerHTML; footSlot.classList.add("footer"); }
+
+  // --- Favicon ---
+  var favicon = document.createElement("link");
+  favicon.rel = "icon";
+  favicon.type = "image/png";
+  favicon.href = "assets/img/Logo_212th.png";
+  document.head.appendChild(favicon);
 
   // --- Menu mobile ---
   var toggle = document.querySelector(".nav-toggle");

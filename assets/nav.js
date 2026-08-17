@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href="compagnie-fantome.html">Compagnie Fantôme</a>
         <a href="arc-rogue.html">ARC Rogue</a>
         <a href="escouade-7.html">Escouade-7</a>
+        <a href="escouade-parjai.html">Escouade Parjai</a>
         <a href="jedi.html">Jedi</a>
       </div>
     </li>

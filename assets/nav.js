@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href="recrutement-ct-asp.html">Recrutement CT ASP</a>
         <a href="manuel-de-linstructeur.html">Manuel de l'instructeur</a>
         <a href="manuel-du-ct.html">Manuel du CT</a>
+        <a href="commandement-212th.html">Formation Commandement 212th</a>
+        <a href="operateur-radio.html">Formation Opérateur Radio</a>
       </div>
     </li>
     <li><span>🎓 Formation régimentaire ⌄</span>
@@ -34,8 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
     <li><span>🗂️ Informations complémentaires ⌄</span>
       <div class="dropdown">
         <a href="referentiel-promotion.html">Référentiel promotion</a>
-        <a href="commandement-212th.html">Commandement 212th</a>
-        <a href="operateur-radio.html">Opérateur Radio</a>
         <a href="personnages-rp.html">Personnages RP</a>
       </div>
     </li>

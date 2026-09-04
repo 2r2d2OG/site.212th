@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <li><span>✈️ Pilotage 212th ⌄</span>
       <div class="dropdown">
         <a href="formation-au-pilotage.html">Inventaire de l'infanterie</a>
-        <a href="site-formation-pilotage.html">Site Formation aérienne</a>
+        <a href="site-formation-pilotage.html">Formation Pilote 212th</a>
         <a href="licence-pilote-flotte.html">Licence Pilote de la Flotte</a>
       </div>
     </li>
